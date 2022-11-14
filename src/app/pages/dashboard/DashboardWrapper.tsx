@@ -18,9 +18,6 @@ const DashboardPage = () => (
                   <img alt='Pic' src={toAbsoluteUrl('/media/avatars/300-25.jpg')} />
                 </div>
                 <div className='symbol symbol-35px symbol-circle'>
-                  <span className='symbol-label bg-light-warning text-warning 40px'>M</span>
-                </div>
-                <div className='symbol symbol-35px symbol-circle'>
                   <img alt='Pic' src={toAbsoluteUrl('/media/avatars/300-9.jpg')} />
                 </div>
                 <div className='symbol symbol-35px symbol-circle'>
@@ -35,8 +32,6 @@ const DashboardPage = () => (
                 <a
                   href='#'
                   className='symbol symbol-35px symbol-circle'
-                  // data-bs-toggle='modal'
-                  // data-bs-target='#kt_modal_view_users'
                 >
                   <span
                     className='symbol-label fs-8 fw-bold'
